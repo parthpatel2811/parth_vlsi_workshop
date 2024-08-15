@@ -1,4 +1,5 @@
 # parth_vlsi_workshop
+# contents
 1.Introduction
 
 2.Day1-Introduction to open source eda tool(openlane) and PDK(skywater130nm) and synthesis of RTL
