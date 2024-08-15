@@ -13,4 +13,4 @@
 6.Day5-Final steps for RTL2GDS flow.
 # 1.Introduction
 OpenLane is an open-source ASIC (Application-Specific Integrated Circuit) flow that facilitates the design and implementation of digital integrated circuits. It provides a complete RTL-to-GDSII (Register Transfer Level to Graphic Data System II) flow, leveraging various open-source EDA (Electronic Design Automation) tools. Developed by Efabless Corporation.
-![count flip flop](https://github.com/user-attachments/assets/16c78edb-d33d-41bf-9fb1-5a25f718da12)
+
