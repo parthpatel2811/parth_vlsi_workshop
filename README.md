@@ -10,3 +10,5 @@
 5.Day4-Pre-layout timing analysis and importance to good clock tress(i.e minimum skewness).
 
 6.Day5-Final steps for RTL2GDS flow.
+# 1.Introduction
+OpenLane is an open-source ASIC (Application-Specific Integrated Circuit) flow that facilitates the design and implementation of digital integrated circuits. It provides a complete RTL-to-GDSII (Register Transfer Level to Graphic Data System II) flow, leveraging various open-source EDA (Electronic Design Automation) tools. Developed by Efabless Corporation.
