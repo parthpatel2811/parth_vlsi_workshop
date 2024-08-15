@@ -36,6 +36,7 @@ write below command
 4->prep -design picorv32a
 ![openlane](https://github.com/user-attachments/assets/41a44b71-9848-4f19-889d-1a9229ce3afd)
 Now run synthesis. Enter below command
+
 5->run_synthesis
 ![run_synthesis](https://github.com/user-attachments/assets/d100c8fe-3575-4f90-be48-2ea8d321c78e)
 Calculate the flop ratio
