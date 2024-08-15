@@ -15,6 +15,7 @@
 OpenLane is an open-source ASIC (Application-Specific Integrated Circuit) flow that facilitates the design and implementation of digital integrated circuits. It provides a complete RTL-to-GDSII (Register Transfer Level to Graphic Data System II) flow, leveraging various open-source EDA (Electronic Design Automation) tools. Developed by Efabless Corporation.
 # 2.Day1-Introduction to open source EDA tool(openlane)
 Follow this command
+
 1.cd Desktop
 
 2.cd work/tools/
@@ -23,3 +24,14 @@ Follow this command
 
 4.cd openlane/
 ![introction](https://github.com/user-attachments/assets/72f09c6b-d728-41f0-9805-c07aa3bba69b)
+step2: setting upopenlane environment
+write below command
+
+1->docker
+
+2->./flow.tcl -interactive
+
+3->package require openlane 0.9
+
+4->prep -design picorv32a
+![openlane](https://github.com/user-attachments/assets/41a44b71-9848-4f19-889d-1a9229ce3afd)
