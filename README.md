@@ -2,18 +2,19 @@
 # contents
 1.Introduction
 
-2.Day1-Introduction to open source eda tool(openlane) and PDK(skywater130nm) and synthesis of RTL
+2.Day1-Inception of open-sourceEDA,openLANE and sky130 PDK
 
-3.Day2-Floorplan and Powerplan.
+3.Day2-Good floorplan vs bad floorplan and introdution to library cells
 
-4.Day3-Cell design using Magic Layout and Ngspice characterization.
+4.Day3-Design library cell using magic layout and ngspice charaterization
 
-5.Day4-Pre-layout timing analysis and importance to good clock tress(i.e minimum skewness).
+5.Day4-Pre-layout timing analysis and importance of good clock tress
 
-6.Day5-Final steps for RTL2GDS flow.
+6.Day5-Final steps for RTL2GDS using tritonRoute and openSTA
 # Introduction
 OpenLane is an open-source ASIC (Application-Specific Integrated Circuit) flow that facilitates the design and implementation of digital integrated circuits. It provides a complete RTL-to-GDSII (Register Transfer Level to Graphic Data System II) flow, leveraging various open-source EDA (Electronic Design Automation) tools. Developed by Efabless Corporation.
-# Day1-Introduction to open source EDA tool(openlane)
+# Day1-Inception of open-sourceEDA,openLANE and sky130 PDK
+
 Follow this command
 
 1.cd Desktop
@@ -43,7 +44,7 @@ Calculate the flop ratio
 
 flop ratio is : 1613/14876 = 0.1084 (10.84%)
 ![count flip flop](https://github.com/user-attachments/assets/933f0fab-cc51-4271-bb8f-b8894986c3b5)
-# Day-2 Floorplan
+# Day-2 Good floorplan vs bad floorplan and introdution to library cells
 Running floorplan
 
 command:- run_floorplan
@@ -67,9 +68,11 @@ magic tool view after the placement with tkcon screen
 standard cells zoom view after placement
 ![std cell zoom view](https://github.com/user-attachments/assets/9f88ad14-63fb-4036-a2a0-e29335ec6bf8)
 
-# Day-3 Design library cell using magic layout and ngspice characterization
+# Day-3 Design library cell using magic layout and ngspice charaterization
 IO placer revision-change the IO parameters
 ![IO change](https://github.com/user-attachments/assets/7e43a8e2-e2c3-43dd-ba94-cd19db277383)
 After change the IO parameter to view the layout
 ![IO change pin](https://github.com/user-attachments/assets/796a7699-882a-4864-b0b5-6fa54331d671)
+# Day -4 Pre-layout timing analysis and importance of good clock tress
 
+# Day-5 Final steps for RTL2GDS using tritonRoute and openSTA
