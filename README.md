@@ -58,5 +58,6 @@ Running run placement
 
 command:- run_placement
 ![run placement](https://github.com/user-attachments/assets/a672d093-e97d-440e-b4d4-0a95dfdeb34b)
-
+File after run placement
+![file after runplacement](https://github.com/user-attachments/assets/8d8d70a3-1c30-4c0e-a642-b77a460dbd71)
 
