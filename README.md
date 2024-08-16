@@ -43,4 +43,8 @@ Calculate the flop ratio
 
 flop ratio is : 1613/14876 = 0.1084 (10.84%)
 ![count flip flop](https://github.com/user-attachments/assets/933f0fab-cc51-4271-bb8f-b8894986c3b5)
+# Day-2 Floorplan
+Running floorplan
 
+command:- run_floorplan
+![floorplan](https://github.com/user-attachments/assets/ea598ae5-92c9-4065-b82c-22fc30a924d4)
