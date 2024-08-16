@@ -11,9 +11,9 @@
 5.Day4-Pre-layout timing analysis and importance to good clock tress(i.e minimum skewness).
 
 6.Day5-Final steps for RTL2GDS flow.
-# 1.Introduction
+# Introduction
 OpenLane is an open-source ASIC (Application-Specific Integrated Circuit) flow that facilitates the design and implementation of digital integrated circuits. It provides a complete RTL-to-GDSII (Register Transfer Level to Graphic Data System II) flow, leveraging various open-source EDA (Electronic Design Automation) tools. Developed by Efabless Corporation.
-# 2.Day1-Introduction to open source EDA tool(openlane)
+# Day1-Introduction to open source EDA tool(openlane)
 Follow this command
 
 1.cd Desktop
@@ -67,7 +67,7 @@ magic tool view after the placement with tkcon screen
 standard cells zoom view after placement
 ![std cell zoom view](https://github.com/user-attachments/assets/9f88ad14-63fb-4036-a2a0-e29335ec6bf8)
 
-# 4 Day-3 Design library cell using magic layout and ngspice characterization
+# Day-3 Design library cell using magic layout and ngspice characterization
 IO placer revision-change the IO parameters
 ![IO change](https://github.com/user-attachments/assets/7e43a8e2-e2c3-43dd-ba94-cd19db277383)
 After change the IO parameter to view the layout
