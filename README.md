@@ -60,4 +60,16 @@ command:- run_placement
 ![run placement](https://github.com/user-attachments/assets/a672d093-e97d-440e-b4d4-0a95dfdeb34b)
 File after run placement
 ![file after runplacement](https://github.com/user-attachments/assets/8d8d70a3-1c30-4c0e-a642-b77a460dbd71)
+Magic view after placement
+![after run placement](https://github.com/user-attachments/assets/820c9a06-28f3-4441-bf4d-f7f5091508ce)
+magic tool view after the placement with tkcon screen
+![after runplacement with tkcon](https://github.com/user-attachments/assets/db30dd8e-b384-4264-b472-1b388536bcca)
+standard cells zoom view after placement
+![std cell zoom view](https://github.com/user-attachments/assets/9f88ad14-63fb-4036-a2a0-e29335ec6bf8)
+
+# 4 Day-3 Design library cell using magic layout and ngspice characterization
+IO placer revision-change the IO parameters
+![IO change](https://github.com/user-attachments/assets/7e43a8e2-e2c3-43dd-ba94-cd19db277383)
+After change the IO parameter to view the layout
+![IO change pin](https://github.com/user-attachments/assets/796a7699-882a-4864-b0b5-6fa54331d671)
 
