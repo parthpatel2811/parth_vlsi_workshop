@@ -52,4 +52,11 @@ cell view of floorplan
 ![magic](https://github.com/user-attachments/assets/11b31eec-f027-4bb9-a4cd-9baa85bb5259)
 cell zoom view of floorplan
 ![cell zoom view](https://github.com/user-attachments/assets/0f5c8e27-caae-4a22-8161-e7c0fb6b0ab8)
+Metal layer detail in tkcon 
+![tckon main](https://github.com/user-attachments/assets/998d17c3-2f84-49c1-91fb-5b4438a2e78b)
+Running run placement
+
+command:- run_placement
+![run placement](https://github.com/user-attachments/assets/a672d093-e97d-440e-b4d4-0a95dfdeb34b)
+
 
