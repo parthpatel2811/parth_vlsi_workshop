@@ -48,3 +48,8 @@ Running floorplan
 
 command:- run_floorplan
 ![floorplan](https://github.com/user-attachments/assets/ea598ae5-92c9-4065-b82c-22fc30a924d4)
+cell view of floorplan
+![magic](https://github.com/user-attachments/assets/11b31eec-f027-4bb9-a4cd-9baa85bb5259)
+cell zoom view of floorplan
+![cell zoom view](https://github.com/user-attachments/assets/0f5c8e27-caae-4a22-8161-e7c0fb6b0ab8)
+
