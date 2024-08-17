@@ -82,13 +82,17 @@ Now run synthesis. Enter below command
 
 5->run_synthesis
 ![run_synthesis](https://github.com/user-attachments/assets/d100c8fe-3575-4f90-be48-2ea8d321c78e)
-Calculate the flop ratio
+**Calculate the flop ratio**
 
-flop ratio is : 1613/14876 = 0.1084 (10.84%)
+-flop ratio is : 1613/14876 = 0.1084 (10.84%)
 ![count flip flop](https://github.com/user-attachments/assets/933f0fab-cc51-4271-bb8f-b8894986c3b5)
 # Day-2 Good floorplan vs bad floorplan and introdution to library cells
 
 ![D2T2](https://github.com/user-attachments/assets/4de4d0c4-95aa-4a9d-b3c3-adc3baf1908f)
+utilization factor = 1 (1 means core is fully utilized the area and no space left)
+Aspect Ratio = Height / width = 2 unit / 2unit = 1
+
+Aspect Ratio is 1 it signifies that chip is square shaped. When it is not 1 it means the chip is in rectangular shape.
 ![D2T3](https://github.com/user-attachments/assets/3ef9658e-aae9-4a88-899e-b60313521a6b)
 ![D2T4](https://github.com/user-attachments/assets/7f68182f-62c9-4a84-a013-f68b3f101818)
 ![D2T5](https://github.com/user-attachments/assets/2b5de0cf-edb5-4d84-9f06-8eb17a6d942b)
