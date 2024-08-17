@@ -46,16 +46,16 @@ The central processing unit (CPU) of the microcontroller that executes instructi
 **3.Floor/Power Planning (FP+PP):**
 
 - Floorplanning (FP): Arranges circuit blocks on the chip.
-Power Planning (PP): Designs the power distribution grid.
-Placement (Place): Positions standard cells within blocks to optimize space and performance.
+-Power Planning (PP): Designs the power distribution grid.
+**4.Placement (Place):** Positions standard cells within blocks to optimize space and performance.
 
-Clock Tree Synthesis (CTS): Builds the clock distribution network to ensure even clock signal distribution.
+**5.Clock Tree Synthesis (CTS):** Builds the clock distribution network to ensure even clock signal distribution.
 
-Routing (Route): Connects cells with metal wires, creating the final layout while adhering to design rules.
+**6.Routing (Route):** Connects cells with metal wires, creating the final layout while adhering to design rules.
 
-Sign Off: Final checks and validations to ensure the design meets specifications. The result is a GDSII file for manufacturing.
+**7.Sign Off:** Final checks and validations to ensure the design meets specifications. The result is a GDSII file for manufacturing.
 
-PDK (Process Design Kit): Provides design rules and models used throughout the design process.
+**PDK (Process Design Kit):** Provides design rules and models used throughout the design process.
 
 Follow this command
 
@@ -87,6 +87,14 @@ Calculate the flop ratio
 flop ratio is : 1613/14876 = 0.1084 (10.84%)
 ![count flip flop](https://github.com/user-attachments/assets/933f0fab-cc51-4271-bb8f-b8894986c3b5)
 # Day-2 Good floorplan vs bad floorplan and introdution to library cells
+![image](https://github.com/user-attachments/assets/f16c0130-bc20-4c99-bac0-8a871b417d28)
+![D2T2](https://github.com/user-attachments/assets/4de4d0c4-95aa-4a9d-b3c3-adc3baf1908f)
+![D2T3](https://github.com/user-attachments/assets/3ef9658e-aae9-4a88-899e-b60313521a6b)
+![D2T4](https://github.com/user-attachments/assets/7f68182f-62c9-4a84-a013-f68b3f101818)
+![D2T5](https://github.com/user-attachments/assets/2b5de0cf-edb5-4d84-9f06-8eb17a6d942b)
+![D2T6](https://github.com/user-attachments/assets/7c5579df-daff-4238-86fa-39cf412a58c8)
+![D2T7](https://github.com/user-attachments/assets/c6b8eea1-7e48-48f4-8f23-43d7a8f36ef2)
+
 Running floorplan
 
 command:- run_floorplan
