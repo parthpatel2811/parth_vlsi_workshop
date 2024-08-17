@@ -18,13 +18,14 @@ OpenLane is an open-source ASIC (Application-Specific Integrated Circuit) flow t
 The chip diagram
 ![day1 theory 0 1](https://github.com/user-attachments/assets/5124a159-0281-47d4-9d88-fdd72ce69ad8)
 ![day1 theory 0 3](https://github.com/user-attachments/assets/6deff07e-0489-4fce-930a-5b42526c6016)
-->DIE :
+
+->**DIE :**
 Die refers to the actual piece of silicon that contains the integrated circuit (IC).In the diagram, the die is represented by the central block that houses all the major components, such as the RISC-V SoC, GPIO bank, PLL, SRAM, and the ADC/DAC modules.
 
-->PADS :
+->**PADS :**
 The contact points around the die that enable it to interface with external components, power supplies, and signals. They are crucial for connecting the internal circuitry of the die to the outside world.
 
-->CORE :
+->**CORE :**
 The central processing unit (CPU) of the microcontroller that executes instructions.
 
 Follow this command
