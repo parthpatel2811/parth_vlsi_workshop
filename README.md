@@ -145,6 +145,13 @@ IO placer revision-change the IO parameters
 ![IO change](https://github.com/user-attachments/assets/7e43a8e2-e2c3-43dd-ba94-cd19db277383)
 After change the IO parameter to view the layout
 ![IO change pin](https://github.com/user-attachments/assets/796a7699-882a-4864-b0b5-6fa54331d671)
+
+Lab steps to git clone vsdstdcelldesign
+![vsdstdcelldesign](https://github.com/user-attachments/assets/147c65bf-f085-4ece-a8f5-c2eec5a7d082)
+![invetor command](https://github.com/user-attachments/assets/692d0de1-bbe7-4313-aed6-d32a40f386de)
+![invertor](https://github.com/user-attachments/assets/03181039-4c6c-4280-b25c-f042981ea08d)
+![invertor2](https://github.com/user-attachments/assets/0624e056-9853-4cd9-b95a-137c22ebfacd)
+
 # Day -4 Pre-layout timing analysis and importance of good clock tress
 
 # Day-5 Final steps for RTL2GDS using tritonRoute and openSTA
