@@ -89,6 +89,7 @@ Now run synthesis. Enter below command
 # Day-2 Good floorplan vs bad floorplan and introdution to library cells
 
 ![D2T2](https://github.com/user-attachments/assets/4de4d0c4-95aa-4a9d-b3c3-adc3baf1908f)
+
 utilization factor = 1 (1 means core is fully utilized the area and no space left)
 Aspect Ratio = Height / width = 2 unit / 2unit = 1
 
