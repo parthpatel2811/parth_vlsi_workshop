@@ -141,8 +141,60 @@ magic tool view after the placement with tkcon screen
 ![after runplacement with tkcon](https://github.com/user-attachments/assets/db30dd8e-b384-4264-b472-1b388536bcca)
 standard cells zoom view after placement
 ![std cell zoom view](https://github.com/user-attachments/assets/9f88ad14-63fb-4036-a2a0-e29335ec6bf8)
+**CELL DESIGN FLOW**</p>
+Standard cells are present in the library . Library consists of cells of different functionality,sizes and thresholds.Larger the size,Largest the drivestences.</p>
+![D2T12](https://github.com/user-attachments/assets/a62afbcc-5e06-4569-984f-2725b9859661)
+![D2T13](https://github.com/user-attachments/assets/563ed3f4-4698-4ddd-a46d-ddeea665d8a1)
+
+- Circuit design
+![D2T14](https://github.com/user-attachments/assets/f378b2c3-78da-4945-aee9-0f2b82610fe0)
+![D2T15](https://github.com/user-attachments/assets/da46e441-6944-4beb-887c-3e0e4931193e)
+
+- Layout design</p>
+Art of Layout: EULER'S GRAPH , STICK DIAGRAM
+![D2T16](https://github.com/user-attachments/assets/4b683a59-9839-4a31-bb07-e2be54000503)
+![D2T17](https://github.com/user-attachments/assets/df100778-f3de-48e5-8792-b7fca3bfec58)
+
+**Characterization Flow**
+![D2T18](https://github.com/user-attachments/assets/072ba240-66e6-4215-82d3-059e5c0a24b2)
+
+- lew Low Rise Threshold: Start point of the rising edge transition.
+
+- Slew High Rise Threshold: End point of the rising edge transition.
+
+- Slew Low Fall Threshold: Start point of the falling edge transition.
+
+- Slew High Fall Threshold: End point of the falling edge transition.
+
+- Input Rise Threshold: Voltage level where input is considered 'high'.
+
+- Input Fall Threshold: Voltage level where input is considered 'low'.
+
+- Output Rise Threshold: Voltage level where output is considered 'high'.
+
+- Output Fall Threshold: Voltage level where output is considered 'low'.
+
+**TRANSITION TIME**
+
+time(slew_high)-time(slew_low)
+![D2T19](https://github.com/user-attachments/assets/3fb80320-a686-4543-97d6-95834b4da6b6)
 
 # Day-3 Design library cell using magic layout and ngspice charaterization
+# SPICE DECK FOR CMOS INVERTER
+![D3T1](https://github.com/user-attachments/assets/f5051187-9bb1-4bf4-a244-69927f1cc25a)
+![D3T2](https://github.com/user-attachments/assets/328e4403-6dd2-4b1c-a374-638bda6f4811)
+- **M1 MOSFET:** The drain is connected to the out node, the gate is connected to the in node, and both the source and substrate of the PMOS transistor are connected to the Vdd node.
+
+- **M2 MOSFET:** The drain is connected to the out node, the gate is connected to the in node, and both the source and substrate of the NMOS transistor are connected to ground (node 0).
+
+- **CLOAD:** This capacitor is connected between the out node and ground (node 0) with a value of 10fF.
+
+- **Supply Voltage (Vdd):** The supply voltage is connected between the Vdd node and ground (node 0) with a value of 2.5V.
+
+- **Input Voltage (Vin):** The input voltage is connected between the Vin node and ground (node 0) with a value of 2.5V.
+![D3T3](https://github.com/user-attachments/assets/9b4d3798-d4c4-4d05-85bb-8bb508cf7037)
+![D3T4](https://github.com/user-attachments/assets/434b8bf4-cd82-4ce0-bdb3-b1f3516f5599)
+
 IO placer revision-change the IO parameters
 ![IO change](https://github.com/user-attachments/assets/7e43a8e2-e2c3-43dd-ba94-cd19db277383)
 After change the IO parameter to view the layout
