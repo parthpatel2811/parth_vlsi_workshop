@@ -99,6 +99,15 @@ Aspect Ratio is 1 it signifies that chip is square shaped. When it is not 1 it m
 ![D2T5](https://github.com/user-attachments/assets/2b5de0cf-edb5-4d84-9f06-8eb17a6d942b)
 ![D2T6](https://github.com/user-attachments/assets/7c5579df-daff-4238-86fa-39cf412a58c8)
 ![D2T7](https://github.com/user-attachments/assets/c6b8eea1-7e48-48f4-8f23-43d7a8f36ef2)
+![D2T8](https://github.com/user-attachments/assets/716df12b-ff51-4816-8859-4860a5e81fb1)
+![D2T11](https://github.com/user-attachments/assets/82df7295-5630-4284-8675-7b13e33d88ff)
+Power planning in chip design focuses on efficiently distributing electrical power and managing heat to ensure reliable and efficient operation. Key aspects include:
+
+**Power Grid Design:** Creates a network of metal layers (power rails) for delivering power and managing voltage drops.
+**Power Domains and Gating:** Segments the chip into areas with independent power control to reduce overall power consumption.
+**Power Analysis:** Evaluates static and dynamic power usage to ensure the power grid supports all operational conditions.
+**Voltage Drop Analysis:** Ensures minimal voltage drops across power rails to avoid performance issues.
+![D2T10](https://github.com/user-attachments/assets/2f90200e-78e7-4541-b18e-38383ee15205)
 
 Running floorplan
 
