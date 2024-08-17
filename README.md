@@ -87,7 +87,7 @@ Calculate the flop ratio
 flop ratio is : 1613/14876 = 0.1084 (10.84%)
 ![count flip flop](https://github.com/user-attachments/assets/933f0fab-cc51-4271-bb8f-b8894986c3b5)
 # Day-2 Good floorplan vs bad floorplan and introdution to library cells
-![image](https://github.com/user-attachments/assets/f16c0130-bc20-4c99-bac0-8a871b417d28)
+
 ![D2T2](https://github.com/user-attachments/assets/4de4d0c4-95aa-4a9d-b3c3-adc3baf1908f)
 ![D2T3](https://github.com/user-attachments/assets/3ef9658e-aae9-4a88-899e-b60313521a6b)
 ![D2T4](https://github.com/user-attachments/assets/7f68182f-62c9-4a84-a013-f68b3f101818)
