@@ -45,7 +45,7 @@ The central processing unit (CPU) of the microcontroller that executes instructi
 
 **3.Floor/Power Planning (FP+PP):**
 
-Floorplanning (FP): Arranges circuit blocks on the chip.
+-Floorplanning (FP): Arranges circuit blocks on the chip.
 -Power Planning (PP): Designs the power distribution grid.
 **4.Placement (Place):** Positions standard cells within blocks to optimize space and performance.
 
@@ -153,12 +153,13 @@ Lab steps to git clone vsdstdcelldesign
 ![invertor2](https://github.com/user-attachments/assets/0624e056-9853-4cd9-b95a-137c22ebfacd)
 
 # Day -4 Pre-layout timing analysis and importance of good clock tress
-_ lab steps to convert grid info to track info
-_lab steps to convert magic layout to std cell LEF
+-lab steps to convert grid info to track info
 ![D4P1](https://github.com/user-attachments/assets/daeda66b-aa84-4901-b365-8e36f290d7ab)
 ![D4P2](https://github.com/user-attachments/assets/52109cb9-f222-471c-981a-59dae04d8239)
 ![D4P4](https://github.com/user-attachments/assets/e58578e7-dc45-4594-98a2-29986081cd95)
 ![D4P5](https://github.com/user-attachments/assets/63fcfa16-3458-4d1c-90ee-6f8707ddfed5)
+-lab steps to convert magic layout to std cell LEF
+
 ```bash
 magic -T sky130A.tech sky130_vsdinv.mag &
 ```
