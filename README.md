@@ -157,12 +157,12 @@ Lab steps to git clone vsdstdcelldesign
 ![D4P2](https://github.com/user-attachments/assets/52109cb9-f222-471c-981a-59dae04d8239)
 ![D4P4](https://github.com/user-attachments/assets/e58578e7-dc45-4594-98a2-29986081cd95)
 ![D4P5](https://github.com/user-attachments/assets/63fcfa16-3458-4d1c-90ee-6f8707ddfed5)
-![D4P6](https://github.com/user-attachments/assets/5ff11d8e-21b0-4678-8363-7f9bde2f798c)
-![D4P7](https://github.com/user-attachments/assets/d6b3004c-b626-42df-a959-005b369ee24c)
-![D4P8](https://github.com/user-attachments/assets/0bcca1d2-9417-41b9-84b9-740d262735c6)
 ```bash
 magic -T sky130A.tech sky130_vsdinv.mag &
 ```
+![D4P6](https://github.com/user-attachments/assets/5ff11d8e-21b0-4678-8363-7f9bde2f798c)
+![D4P7](https://github.com/user-attachments/assets/d6b3004c-b626-42df-a959-005b369ee24c)
+![D4P8](https://github.com/user-attachments/assets/0bcca1d2-9417-41b9-84b9-740d262735c6)
 ![D4P10](https://github.com/user-attachments/assets/65a9fe5b-741a-46a9-83f6-d6cb4f65c0c9)
 
 
