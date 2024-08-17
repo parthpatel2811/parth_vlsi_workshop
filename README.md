@@ -45,7 +45,7 @@ The central processing unit (CPU) of the microcontroller that executes instructi
 
 **3.Floor/Power Planning (FP+PP):**
 
-- Floorplanning (FP): Arranges circuit blocks on the chip.
+Floorplanning (FP): Arranges circuit blocks on the chip.
 -Power Planning (PP): Designs the power distribution grid.
 **4.Placement (Place):** Positions standard cells within blocks to optimize space and performance.
 
@@ -91,6 +91,7 @@ Now run synthesis. Enter below command
 ![D2T2](https://github.com/user-attachments/assets/4de4d0c4-95aa-4a9d-b3c3-adc3baf1908f)
 
 utilization factor = 1 (1 means core is fully utilized the area and no space left)
+
 Aspect Ratio = Height / width = 2 unit / 2unit = 1
 
 Aspect Ratio is 1 it signifies that chip is square shaped. When it is not 1 it means the chip is in rectangular shape.
@@ -104,8 +105,11 @@ Aspect Ratio is 1 it signifies that chip is square shaped. When it is not 1 it m
 Power planning in chip design focuses on efficiently distributing electrical power and managing heat to ensure reliable and efficient operation. Key aspects include:
 
 **Power Grid Design:** Creates a network of metal layers (power rails) for delivering power and managing voltage drops.
+
 **Power Domains and Gating:** Segments the chip into areas with independent power control to reduce overall power consumption.
+
 **Power Analysis:** Evaluates static and dynamic power usage to ensure the power grid supports all operational conditions.
+
 **Voltage Drop Analysis:** Ensures minimal voltage drops across power rails to avoid performance issues.
 ![D2T10](https://github.com/user-attachments/assets/2f90200e-78e7-4541-b18e-38383ee15205)
 
@@ -114,6 +118,10 @@ Running floorplan
 command:- run_floorplan
 ![floorplan](https://github.com/user-attachments/assets/ea598ae5-92c9-4065-b82c-22fc30a924d4)
 cell view of floorplan
+
+```bash
+magic -T  /Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech \lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+```
 ![magic](https://github.com/user-attachments/assets/11b31eec-f027-4bb9-a4cd-9baa85bb5259)
 cell zoom view of floorplan
 ![cell zoom view](https://github.com/user-attachments/assets/0f5c8e27-caae-4a22-8161-e7c0fb6b0ab8)
