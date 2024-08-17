@@ -15,7 +15,7 @@
 OpenLane is an open-source ASIC (Application-Specific Integrated Circuit) flow that facilitates the design and implementation of digital integrated circuits. It provides a complete RTL-to-GDSII (Register Transfer Level to Graphic Data System II) flow, leveraging various open-source EDA (Electronic Design Automation) tools. Developed by Efabless Corporation.
 # Day-1 Inception of open-sourceEDA,openLANE and sky130 PDK
 
-The chip diagram
+**The chip diagram**
 ![day1 theory 0 1](https://github.com/user-attachments/assets/5124a159-0281-47d4-9d88-fdd72ce69ad8)
 ![day1 theory 0 3](https://github.com/user-attachments/assets/6deff07e-0489-4fce-930a-5b42526c6016)
 
@@ -27,6 +27,35 @@ The contact points around the die that enable it to interface with external comp
 
 ->**CORE :**
 The central processing unit (CPU) of the microcontroller that executes instructions.
+![D1 T4](https://github.com/user-attachments/assets/98dc0803-55ab-4587-b94a-f2cb13f7675b)
+**ISA (Instruction Set Architecture):** Defines the instructions a processor can execute (e.g., add x6, x10, x6).
+
+**Assembler:** Converts assembly instructions into binary machine code.
+
+**RTL (Register Transfer Level):** Describes hardware behavior in terms of data flow and operations, often using HDLs like Verilog or VHDL.
+
+**Synthesized Netlist:** Translates RTL into a detailed list of logic gates and connections.
+
+**Physical Design:** Converts the netlist into a physical chip layout, placing and routing the circuit elements on silicon.
+![D1 T5](https://github.com/user-attachments/assets/1a4d8897-dc3b-4edc-b599-1b0b5408b77c)
+![D1T6](https://github.com/user-attachments/assets/76b1db80-c6f9-4b6c-a00d-f5ce00242c7d)
+**1.RTL (Register Transfer Level):** High-level digital circuit design written in HDLs like Verilog or VHDL.
+
+**2.Synthesis (Synth):** Converts RTL code into a gate-level netlist, specifying logic gates and their connections.
+
+**3.Floor/Power Planning (FP+PP):**
+
+- Floorplanning (FP): Arranges circuit blocks on the chip.
+Power Planning (PP): Designs the power distribution grid.
+Placement (Place): Positions standard cells within blocks to optimize space and performance.
+
+Clock Tree Synthesis (CTS): Builds the clock distribution network to ensure even clock signal distribution.
+
+Routing (Route): Connects cells with metal wires, creating the final layout while adhering to design rules.
+
+Sign Off: Final checks and validations to ensure the design meets specifications. The result is a GDSII file for manufacturing.
+
+PDK (Process Design Kit): Provides design rules and models used throughout the design process.
 
 Follow this command
 
