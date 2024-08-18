@@ -298,7 +298,7 @@ set ::env(SYNTH_SIZING) 1
 ![WhatsApp Image 2024-08-18 at 6 34 56 PM (1)](https://github.com/user-attachments/assets/1bfc47ab-5930-4296-8b57-c6ade7bac897)
 ![WhatsApp Image 2024-08-18 at 6 34 57 PM](https://github.com/user-attachments/assets/bd8430e9-d443-4516-b1df-7552ee2c2b95)
 
-**Clock tree synthesis (H-Tree)**
+# Clock tree synthesis (H-Tree)
 - **For CLK1**
 ![WhatsApp Image 2024-08-18 at 9 05 06 PM](https://github.com/user-attachments/assets/d8a52736-5d43-4040-b8ed-3f1906f4f3d0)
 
@@ -349,3 +349,24 @@ Works on proposed MILP-based panel routing scheme with intra-layer parallel and 
 
 ► CONSTRAINTS: Route guide honoring, connectivity constraints and design rules
 ![WhatsApp Image 2024-08-18 at 9 40 51 PM](https://github.com/user-attachments/assets/4978afa3-f9d8-471a-be7c-f3ee7b91bd65)
+
+# Maza routing rules
+**Signal Integrity:** Maintain proper spacing and controlled impedance to minimize interference.
+
+**Power Distribution:** Use wide traces and place decoupling capacitors close to power pins.
+
+**Via Usage:** Minimize via use, and ensure appropriate sizes to reduce resistance.
+
+**Layer Management:** Utilize multiple layers for signals, power, and ground to enhance performance.
+
+**Trace Widths:** Design trace widths based on current and thermal needs.
+
+**Design Rule Checks (DRCs):** Follow minimum width, spacing, and clearance rules to ensure manufacturability.
+
+**Signal Routing Optimization:** Keep signal paths short and avoid narrow traces.
+
+**Thermal Management:** Consider heat dissipation to avoid hot spots.
+
+**Critical Signals:** Pay special attention to high-speed or sensitive signals, including differential pairs.
+
+**Manufacturability:** Ensure the design is feasible for manufacturing and includes test points for verification.
