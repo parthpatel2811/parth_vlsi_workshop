@@ -221,6 +221,7 @@ magic -T sky130A.tech sky130_vsdinv.mag &
 ![D4P7](https://github.com/user-attachments/assets/d6b3004c-b626-42df-a959-005b369ee24c)
 ![D4P8](https://github.com/user-attachments/assets/0bcca1d2-9417-41b9-84b9-740d262735c6)
 ![D4P10](https://github.com/user-attachments/assets/65a9fe5b-741a-46a9-83f6-d6cb4f65c0c9)
+![D4T1](https://github.com/user-attachments/assets/839fcb6d-bd03-4f20-be31-f675637ec30c)
 
 
 # Day-5 Final steps for RTL2GDS using tritonRoute and openSTA
