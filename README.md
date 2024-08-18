@@ -288,5 +288,64 @@ set ::env(SYNTH_SIZING) 1
 ![D4P24](https://github.com/user-attachments/assets/a83d0fdf-a1b6-4375-ae70-ea42ae27476e)
 ![D4P25](https://github.com/user-attachments/assets/57c1005d-5397-49c1-82ad-0a30bd396e72)
 ![D4P26](https://github.com/user-attachments/assets/7f410c69-a09f-4c25-963a-767a2651df95)
+![WhatsApp Image 2024-08-18 at 6 34 54 PM](https://github.com/user-attachments/assets/0c85c925-0776-498a-ab1a-a3db2dfb421c)
+![WhatsApp Image 2024-08-18 at 6 34 54 PM (1)](https://github.com/user-attachments/assets/653a4df4-7b5b-40c6-8d8a-2c513baa8099)
+![WhatsApp Image 2024-08-18 at 6 34 54 PM (2)](https://github.com/user-attachments/assets/956fd217-cf16-4a84-b3bf-8f03381b5b85)
+![WhatsApp Image 2024-08-18 at 6 34 55 PM](https://github.com/user-attachments/assets/cf4daf28-635d-47f8-895f-887b5f09d5c8)
+![WhatsApp Image 2024-08-18 at 6 34 55 PM (1)](https://github.com/user-attachments/assets/9e8fc890-6aaa-4c1d-9af4-00a9129b03c5)
+![WhatsApp Image 2024-08-18 at 6 34 55 PM (2)](https://github.com/user-attachments/assets/2401ec28-24d2-4d3b-bda6-49c23e9c8fa3)
+![WhatsApp Image 2024-08-18 at 6 34 56 PM](https://github.com/user-attachments/assets/8760509c-c1b7-4bf5-80b9-c4b363ad3a6d)
+![WhatsApp Image 2024-08-18 at 6 34 56 PM (1)](https://github.com/user-attachments/assets/1bfc47ab-5930-4296-8b57-c6ade7bac897)
+![WhatsApp Image 2024-08-18 at 6 34 57 PM](https://github.com/user-attachments/assets/bd8430e9-d443-4516-b1df-7552ee2c2b95)
+
+**Clock tree synthesis (H-Tree)**
+- **For CLK1**
+![WhatsApp Image 2024-08-18 at 9 05 06 PM](https://github.com/user-attachments/assets/d8a52736-5d43-4040-b8ed-3f1906f4f3d0)
+
+- **For CLK2**
+![WhatsApp Image 2024-08-18 at 9 05 06 PM (1)](https://github.com/user-attachments/assets/d3c2e771-b7cc-428a-8320-d1bde4d637e8)
+![WhatsApp Image 2024-08-18 at 9 05 06 PM (2)](https://github.com/user-attachments/assets/8f001cb2-efd2-41db-be41-6c8ae5400a11)
+![WhatsApp Image 2024-08-18 at 9 05 07 PM (1)](https://github.com/user-attachments/assets/b03f0e27-507e-4a62-8789-bc2fd3a3bda8)
+
+- **Imapct of crosstalk delta delay**
+![WhatsApp Image 2024-08-18 at 9 05 07 PM (2)](https://github.com/user-attachments/assets/3bb9ace5-4932-4c10-9ace-7bf6e948147d)
+
+- **Time analysis with real clocks**
+![WhatsApp Image 2024-08-18 at 9 05 08 PM](https://github.com/user-attachments/assets/05c83e5a-ce38-48bf-886a-ec3b9d81098c)
 
 # Day-5 Final steps for RTL2GDS using tritonRoute and openSTA
+
+- **Maza routing**
+![WhatsApp Image 2024-08-18 at 9 29 56 PM](https://github.com/user-attachments/assets/14495bbb-b199-4f57-b2e5-36a68e44c096)
+![WhatsApp Image 2024-08-18 at 9 29 57 PM](https://github.com/user-attachments/assets/fb09ddb3-5f5e-40fa-acd2-e22f4752899a)
+![WhatsApp Image 2024-08-18 at 9 29 57 PM (1)](https://github.com/user-attachments/assets/4c237fa3-d4f8-41ac-9916-b9e42de3c6de)
+![WhatsApp Image 2024-08-18 at 9 29 56 PM (1)](https://github.com/user-attachments/assets/0373f790-a63b-42aa-9360-7b924854738a)
+![WhatsApp Image 2024-08-18 at 9 29 58 PM](https://github.com/user-attachments/assets/7ef682ee-0865-4bbe-ae63-2e3cfaec367d)
+![WhatsApp Image 2024-08-18 at 9 29 58 PM (1)](https://github.com/user-attachments/assets/eca32dbf-f5d0-480e-bf1b-82e2163d9943)
+
+- **DRC clean**
+![WhatsApp Image 2024-08-18 at 9 29 58 PM (2)](https://github.com/user-attachments/assets/2d412c9d-f397-4542-87e4-493723f88a72)
+![WhatsApp Image 2024-08-18 at 9 29 59 PM](https://github.com/user-attachments/assets/bef67325-2e97-45fc-81ca-6ba2b1a71207)
+![WhatsApp Image 2024-08-18 at 9 29 59 PM (1)](https://github.com/user-attachments/assets/eceb6db3-8a1d-4c7a-8817-dcd600b2d5c0)
+
+- **Parasitics extraction**
+![WhatsApp Image 2024-08-18 at 9 29 59 PM (2)](https://github.com/user-attachments/assets/ad3a1c99-0b09-4045-8d31-969a37121dfa)
+
+# TritonRoute
+Performs initial detail route.
+
+Honors the preprocessed route guides (obtained after fast route),i.e., attempts as much as possible to route within route guides.
+
+Assumes route guides for each net satisfy inter-guide connectivity.
+
+Works on proposed MILP-based panel routing scheme with intra-layer parallel and inter-layer sequential routing framework.
+![WhatsApp Image 2024-08-18 at 9 38 54 PM](https://github.com/user-attachments/assets/24ba85af-45c1-4ef3-a269-7112f102ebf4)
+
+-> **Problem Statement:**
+
+► INPUTS: LEF, DEF, Preprocessed route guides
+
+► OUTPUT: Detailed routing solution with optimized wire-length and via count
+
+► CONSTRAINTS: Route guide honoring, connectivity constraints and design rules
+![WhatsApp Image 2024-08-18 at 9 40 51 PM](https://github.com/user-attachments/assets/4978afa3-f9d8-471a-be7c-f3ee7b91bd65)
