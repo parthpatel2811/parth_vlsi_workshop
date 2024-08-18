@@ -259,4 +259,34 @@ Total capacitance at node B and C is 50fF.
 - **For CBUF2**
 ![D4T5](https://github.com/user-attachments/assets/c6791d98-a48c-4596-9c72-0c91168e0fff)
 
+```bash
+vim config.tcl
+```
+![D4P12](https://github.com/user-attachments/assets/c5dc9a2e-56ce-4e2d-a221-d5e21422b667)
+![D4P13](https://github.com/user-attachments/assets/97fd6a3b-5b80-48e7-b3e7-823e27098c7d)
+![D4P14](https://github.com/user-attachments/assets/441fade2-80bf-4483-9a11-1746a75f2634)
+
+```bash
+run_synthesis
+```
+![D4P16](https://github.com/user-attachments/assets/2614ba06-36fa-49af-9653-0a8e631f7d89)
+![D4P17](https://github.com/user-attachments/assets/02efe44d-336e-4ee7-b546-9fd8af0c1b5d)
+
+```bash
+echo $::env(SYNTH_STRATEGY)
+set ::env(SYNTH_STRATEGY) 1
+echo $::env(SYNTH_BUFFERING)
+echo $::env(SYNTH_SIZING)
+set ::env(SYNTH_SIZING) 1
+```
+![D4P18](https://github.com/user-attachments/assets/3fa205c7-b9a6-453d-9f8d-cfa7656a5f1f)
+![D4P19](https://github.com/user-attachments/assets/373f3f88-fb6a-4528-af20-348bf9c3ef39)
+![D4P20](https://github.com/user-attachments/assets/d03e7ab1-69b2-4ccf-94c1-3fed333b7282)
+![D4P21](https://github.com/user-attachments/assets/80a91961-69a0-4237-969b-68ac73161ea7)
+![D4P22](https://github.com/user-attachments/assets/8e1084ab-c3c7-4d16-9a36-ebb478cadb0e)
+![D4P23](https://github.com/user-attachments/assets/c78a59fd-a323-405c-990e-50d42f1e8194)
+![D4P24](https://github.com/user-attachments/assets/a83d0fdf-a1b6-4375-ae70-ea42ae27476e)
+![D4P25](https://github.com/user-attachments/assets/57c1005d-5397-49c1-82ad-0a30bd396e72)
+![D4P26](https://github.com/user-attachments/assets/7f410c69-a09f-4c25-963a-767a2651df95)
+
 # Day-5 Final steps for RTL2GDS using tritonRoute and openSTA
