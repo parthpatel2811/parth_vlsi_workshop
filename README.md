@@ -223,5 +223,40 @@ magic -T sky130A.tech sky130_vsdinv.mag &
 ![D4P10](https://github.com/user-attachments/assets/65a9fe5b-741a-46a9-83f6-d6cb4f65c0c9)
 ![D4T1](https://github.com/user-attachments/assets/839fcb6d-bd03-4f20-be31-f675637ec30c)
 
+**AND Gate**
+
+- **Function:** The AND gate outputs a high signal (1) only when all of its inputs are high. If any input is low (0), the output is low.
+
+**OR Gate**
+
+- **Function:** The OR gate outputs a high signal (1) when at least one of its inputs is high. The output is low (0) only when all inputs are low.
+![D4T2](https://github.com/user-attachments/assets/07c3ac36-8b47-4975-b4fa-28e812b48642)
+
+In this photo capacitor C1, C2, C3 ,C4 are assuming the same value.
+
+C1=C2=C3=C4=25fF
+
+Here at node A creating buffer tree.
+
+Let  assume Cbuf1=Cbuf2= 30fF
+
+Total capacitance at node A is 60fF.
+
+Total capacitance at node B and C is 50fF.
+
+- **Observations**
+
+  - 2 level of buffering
+  - At every level, each node driving same load
+  - Identical buufer at same level
+
+**Delay table for CBUF1 and CBUF2**
+![D4T3](https://github.com/user-attachments/assets/dc4c17f7-932d-40e2-aea9-81efd380efcc)
+
+- **For CBUF1**
+![D4T4](https://github.com/user-attachments/assets/53b484c5-1655-499d-8c5b-93af31164ff2)
+
+- **For CBUF2**
+![D4T5](https://github.com/user-attachments/assets/c6791d98-a48c-4596-9c72-0c91168e0fff)
 
 # Day-5 Final steps for RTL2GDS using tritonRoute and openSTA
